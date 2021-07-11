@@ -21,6 +21,7 @@ No prebuilt images, just the power of arrays and pixel art.
 - This lab was done in collaboration with [Davee Sok](https://github.com/daveeS987) and Wondwosen.
 
 Article Credit:
+
 [Print Checkerboard Pattern using Numpy](https://www.geeksforgeeks.org/python-program-print-checkerboard-pattern-nxn-using-numpy/)
 
 [Check if a Queen can attack an oppenent](https://www.geeksforgeeks.org/check-if-a-queen-can-attack-a-given-cell-on-chessboard/)
