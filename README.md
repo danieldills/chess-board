@@ -1,11 +1,20 @@
 # Numpy Arrays
-<!-- Short summary or background information -->
+
+## Author: Daniel Dills
+
+## Overview
+
 Today we’ll be constructing chess boards like it’s 1980.
 
 No prebuilt images, just the power of arrays and pixel art.
 
+## Links
+
+- [See the Code](chess_board.ipynb)
+- [Pull Request](https://github.com/danieldills/chess-board/pull/1)
+
 ## Feature Tasks and Requirements
-<!-- Description of the challenge -->
+
 - Chess board is an 8 by 8 grid of alternating black and white squares. The queens are red and blue squares.
 
 - Each board will have one red and one blue queen at different coordinates. In addition to displaying the board you’ll need to identify if the queens are “under attack” based on their coordinates.
@@ -16,11 +25,20 @@ No prebuilt images, just the power of arrays and pixel art.
     - should have render method that displays the chess board on screen with red and blue shown in correct locations
     - should have is_under_attack method that return boolean if red is under attack by a blue piece horizontally, vertically or diagonally
 
-## Collaborations & Credit
-<!-- What approach did you take? Why? What is the Big O space/time for this approach? -->
+## User Acceptance Tests
+
+- queens on same row should be “under attack”
+- queens on same column should be “under attack”
+- queens on same diagonal should be “under attack”
+- queens with any other coordinates should NOT be “under attack”
+
+- NOTE: Include assert statements directly in your notebook verifying the behavior above.
+
+## Collaborations
+
 - This lab was done in collaboration with [Davee Sok](https://github.com/daveeS987) and Wondwosen.
 
-Article Credit:
+## Article Credit
 
 [Print Checkerboard Pattern using Numpy](https://www.geeksforgeeks.org/python-program-print-checkerboard-pattern-nxn-using-numpy/)
 
